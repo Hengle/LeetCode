@@ -1,38 +1,27 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
+
 using namespace std;
 int lengthOfLongestSubstring(string s)
 {
-	vector<int> dp;
-
-	int start = 0;
-	for (int i = 1; i < s.length(); i++) {
-		int j = start;
-		bool repeat = false;
-		while ( j < i) {
-			if (s[j] == s[i]) {
-				repeat = true;
-				break;
+	int t[256], len, start = 0, end = 0, maxLength =0;
+//	memset(t, 0xff, 256*sizeof(int));
+	len = s.length();
+	while(end != len) {
+		if(t[s[end]]> start) {
+			if (maxLength < end-start) {
+				maxLength = end -start;
 			}
-			j++;
+			start = t[s[end]] +1;
 		}
-		dp.push_back(j - start + 1);
-		if (repeat) {
-			start = i;
-		}
+		t[s[end]] = end;
+		++end;
 	}
-
-	int ret = -1;
-	for (int i = 1; i <dp.size(); i++) {
-		if (dp[i] > ret) {
-			ret = dp[i];
-		}
-	}
-	return ret;
 }
 int main(int argc, char *argv[])
 {
-	cout << lengthOfLongestSubstring("abcbdefa") << endl;
+	cout << lengthOfLongestSubstring("abcbad") << endl;
 	return 0;
 }
