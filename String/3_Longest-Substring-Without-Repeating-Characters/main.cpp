@@ -19,6 +19,7 @@ int lengthOfLongestSubstring(string s)
 		t[s[end]] = end;
 		++end;
 	}
+	return len;
 }
 int main(int argc, char *argv[])
 {

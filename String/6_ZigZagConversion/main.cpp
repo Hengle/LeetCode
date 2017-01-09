@@ -1,28 +1,32 @@
 #include <iostream>
 #include <numeric>
+#include <string>
 #include <time.h>
 using namespace std;
 
 string convert(string s, int numRows)
 {
-	if (numRows <=0)
-		return "";
-	if (numRows == 1 || s.length() < numRows)
-		return s;
-	int n = s.length();
-	string str[numRows];
-
-	for (int i = 0; i < n;) {
-		for (int j = 0; j < numRows && i < n; ++j, ++i) {
-			str[j].push_back(s[i]);
-		}
-		for (int j = numRows -2; j >0 && i <n; --j, ++i) {
-			str[j].push_back(s[i]);
-		}
-	}
 	string ret;
-	for (int i =0; i < numRows; i++)
-		ret.append(str[i]);
+//	if (numRows <=0)
+//		return "";
+//	if (numRows == 1 || s.length() < numRows)
+//		return s;
+//	int n = s.length();
+
+//	vector<string> str(numRows);
+////	string str[numRows];
+
+//	for (int i = 0; i < n;) {
+//		for (int j = 0; j < numRows && i < n; ++j, ++i) {
+//			str[j].push_back(s[i]);
+//		}
+//		for (int j = numRows -2; j >0 && i <n; --j, ++i) {
+//			str[j].push_back(s[i]);
+//		}
+//	}
+//	string ret;
+//	for (int i =0; i < numRows; i++)
+//		ret.append(str[i]);
 	return ret;
 }
 int main(int argc, char *argv[])

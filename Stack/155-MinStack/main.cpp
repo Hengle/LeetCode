@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+int min(int a, int b)
+{
+	return a < b ? a : b;
+}
 class MinStack {
 public:
 	/** initialize your data structure here. */
