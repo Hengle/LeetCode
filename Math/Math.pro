@@ -5,4 +5,5 @@ SUBDIRS += \
     258-AddDigits \
     7_ReverseInteger \
     9_PalindromeNumber \
-    67_Add_Binary
+    67_Add_Binary \
+    qsort

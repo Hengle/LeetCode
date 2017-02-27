@@ -7,4 +7,5 @@ SUBDIRS += \
     Stack \
     String \
     Tree \
-    TwoPointers
+    TwoPointers \
+    Other
