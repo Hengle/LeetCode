@@ -5,4 +5,6 @@ SUBDIRS += \
     6_ZigZagConversion \
     8_atoi \
     13_RomantoInteger \
-    14_LongestCommonPrefix
+    14_LongestCommonPrefix \
+    520_DetectCapital \
+    389_FindDifference
