@@ -9,4 +9,5 @@ SUBDIRS += \
     136_SingleNumber \
     371_Sum_of_two_number \
     492_Construct_the_Rectangle \
-    506_RelativeRanks
+    506_RelativeRanks \
+    167_TwoSumII
