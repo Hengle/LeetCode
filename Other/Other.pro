@@ -12,4 +12,5 @@ SUBDIRS += \
     506_RelativeRanks \
     167_TwoSumII \
     535 \
-    657
+    657 \
+    728-SelfDividingNumbers
