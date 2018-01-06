@@ -13,4 +13,5 @@ SUBDIRS += \
     167_TwoSumII \
     535 \
     657 \
-    728-SelfDividingNumbers
+    728-SelfDividingNumbers \
+    682-BaseballGame
