@@ -10,7 +10,7 @@ public:
         size_t front = 0;
         for (int i = 0; i <= len; ++i) {
             if (i == len || s[i] == ' ') {
-                reverse(&s[front], &s[i]);
+//                reverse(&s[front], &s[i]);
                 front = i + 1;
             }
         }
