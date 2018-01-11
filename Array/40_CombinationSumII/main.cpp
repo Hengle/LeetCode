@@ -20,20 +20,22 @@ private:
             return;
         }
         for (int i = index; i < candidates.size() && candidates[i] <= target; ++i) {
-            curAns.push_back(candidates[i]);
-            findNums(candidates, target - candidates[i], ans, curAns, i);
-            curAns.pop_back();
+            if (i == index || candidates[i] != candidates[i-1]) {
+                curAns.push_back(candidates[i]);
+                findNums(candidates, target - candidates[i], ans, curAns, i + 1);
+                curAns.pop_back();
+            }
         }
     }
 };
 int main(int argc, char **argv) {
     (void)argc;
     (void)argv;
-    vector<int> nums{2,3,6,7};
     Solution s;
-    auto ans = s.combinationSum(nums, 7);
-    for (const auto &i: ans) {
-        for (int j:i) {
+    vector<int> nums {10, 1, 2, 7, 6, 1, 5};
+    auto ans = s.combinationSum(nums, 8);
+    for (auto i : ans) {
+        for (auto j : i) {
             cout << j << " ";
         }
         cout << endl;

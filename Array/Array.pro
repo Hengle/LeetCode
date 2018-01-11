@@ -16,4 +16,5 @@ SUBDIRS += \
     697_DegreeOfAnArray \
     216_Combination-Sum-III \
     39_CombinationSum \
-    N-Queue
+    N-Queue \
+    40_CombinationSumII
