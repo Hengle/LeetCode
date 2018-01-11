@@ -13,4 +13,7 @@ SUBDIRS += \
     717_1-bit_and_2-bit_Character \
     565_ArrayNesting \
     121_BestTimeTobuy \
-    697_DegreeOfAnArray
+    697_DegreeOfAnArray \
+    216_Combination-Sum-III \
+    39_CombinationSum \
+    N-Queue
