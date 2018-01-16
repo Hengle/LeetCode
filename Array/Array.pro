@@ -17,4 +17,10 @@ SUBDIRS += \
     216_Combination-Sum-III \
     39_CombinationSum \
     N-Queue \
-    40_CombinationSumII
+    40_CombinationSumII \
+    661_Image_Smoother \
+    747 \
+    628 \
+    268 \
+    746 \
+    287
