@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <utility>
 using namespace std;
 class Solution {
 public:
@@ -9,12 +10,12 @@ public:
     int maxProfit(vector<int>& prices) {
         int lowestPrice1 = INT_MAX;
         int lowestPrice2 = INT_MAX;
-        int maxProfit1 = 0;
-        int maxProfit2 = 0;
-        for (auto i : prices) {
-            lowestPrice2 = max(min(lowestPrice1, i);
-            lowestPrice1 = min(lowestPrice1, i);
-        }
+//        int maxProfit1 = 0;
+//        int maxProfit2 = 0;
+//        for (auto i : prices) {
+//            lowestPrice2 = max(min(lowestPrice1, i));
+//            lowestPrice1 = min(lowestPrice1, i);
+//        }
         return 0;
     }
     //121 122

@@ -8,5 +8,6 @@ SUBDIRS += \
     String \
     Tree \
     TwoPointers \
-    Other
+    Other \
+    OtherFiles.pro
 
