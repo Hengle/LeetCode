@@ -5,25 +5,19 @@
 using namespace std;
 class Solution {
 public:
+    //123
     int maxProfit(vector<int>& prices) {
-        if (prices.empty()) return 0;
-        int n = prices.size();
-        vector<int> leftProfit(n, 0);
-        int maxLeftPro = 0, minPrice = prices[0];
-        for (int i = 1; i < n; ++i) {
-            if (prices[i] < minPrice) minPrice = prices[i];
-            else maxLeftPro = max(maxLeftPro, prices[i] - minPrice);
-            leftProfit[i] = maxLeftPro;
+        int lowestPrice1 = INT_MAX;
+        int lowestPrice2 = INT_MAX;
+        int maxProfit1 = 0;
+        int maxProfit2 = 0;
+        for (auto i : prices) {
+            lowestPrice2 = max(min(lowestPrice1, i);
+            lowestPrice1 = min(lowestPrice1, i);
         }
-        int ans = leftProfit[n - 1];
-        int maxRightPro = 0, maxPrice = prices[n -1];
-        for (int i = n - 2; i >=0; --i) {
-            if (prices[i] > maxPrice) maxPrice = prices[i];
-            else maxRightPro = max(maxRightPro, maxRightPro - prices[i]);
-            ans = max(ans, maxRightPro + leftProfit[i]);
-        }
-        return ans;
+        return 0;
     }
+    //121 122
 //    int maxProfit(vector<int>& prices) {
 //        int n = prices.size();
 //        int max = 0;
