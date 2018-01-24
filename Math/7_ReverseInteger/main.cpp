@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <climits>
 using namespace std;
 int reverse(int x) {
 	long ret = 0;
