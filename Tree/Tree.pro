@@ -5,4 +5,5 @@ SUBDIRS += \
     237_DeleteNodeinaLinkedList \
     100_SameTree \
     654 \
-    617
+    617 \
+    669
