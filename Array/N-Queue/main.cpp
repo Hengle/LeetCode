@@ -28,7 +28,7 @@ private:
     void calc(int num, int row, int column, vector<vector<int>> &datas) {
         if (row >= num || column >= num) {
             count++;
-            cout <<"count:" << count << endl;
+//            cout <<"count:" << count << endl;
 //            output(datas);
             return;
         }
