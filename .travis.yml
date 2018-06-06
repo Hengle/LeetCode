@@ -2,7 +2,6 @@ language: cpp
 compiler: gcc
 cache: bundler
 sudo: required
-install: make cmake 
 group: deprecated-2017Q4
 script:
     - mkdir build
