@@ -1,6 +1,5 @@
-#include <QCoreApplication>
 #include <vector>
-#include <QDebug>
+#include <iostream>
 using namespace std;
 struct TreeNode {
     int val;
@@ -31,16 +30,15 @@ public:
 };
 void printTree(TreeNode *root) {
     if (!root) {
-        qWarning() << "NULL";
+        cout<< "NULL"<< endl;
         return;
     }
-    qWarning() <<  root->val;
+    cout <<  root->val << endl;
     printTree(root->left);
     printTree(root->right);
 }
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     vector<int> nums;
 
     nums.push_back(3);
@@ -53,5 +51,5 @@ int main(int argc, char *argv[])
     Solution s;
     auto root = s.constructMaximumBinaryTree(nums);
     printTree(root);
-    return a.exec();
+    return 0;
 }

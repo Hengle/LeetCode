@@ -1,11 +1,11 @@
-#include <QCoreApplication>
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <vector>
 using namespace std;
 class Solution {
 private:
-    std::vector<string> mList;
+    vector<string> mList;
 public:
 
     // Encodes a URL to a shortened URL.
@@ -28,7 +28,5 @@ public:
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
+    return 0;
 }

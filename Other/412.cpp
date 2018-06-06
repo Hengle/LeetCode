@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -23,11 +22,10 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     Solution s;
     vector<string> ret = s.fizzBuzz(15);
     for (auto i:ret) {
         cout << i << endl;
     }
-    return a.exec();
+    return 0;
 }

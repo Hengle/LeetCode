@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 class Solution {
 public:
     int getSum(int a, int b) {
@@ -14,7 +13,5 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
+    return 0;
 }

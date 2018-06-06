@@ -1,5 +1,3 @@
-#include <QCoreApplication>
-
 #include <vector>
 #include <iostream>
 using namespace std;
@@ -22,7 +20,6 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     vector<int> nums;
     nums.push_back(1);
     nums.push_back(1);
@@ -32,5 +29,5 @@ int main(int argc, char *argv[])
     nums.push_back(1);
     Solution s;
     cout << s.findMaxConsecutiveOnes(nums);
-    return a.exec();
+    return 0;
 }

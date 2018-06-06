@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <vector>
 #include <iostream>
 using namespace std;
@@ -21,7 +20,6 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     vector<int> a1;
     a1.push_back(0);
     a1.push_back(1);
@@ -56,5 +54,5 @@ int main(int argc, char *argv[])
 
     Solution s;
     cout <<"ans:"<< s.islandPerimeter(v) << endl;
-    return a.exec();
+    return 0;
 }

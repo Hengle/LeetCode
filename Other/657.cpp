@@ -1,6 +1,5 @@
-#include <QCoreApplication>
 #include <string>
-#include <QDebug>
+#include <iostream>
 using namespace std;
 class Solution {
 public:
@@ -33,8 +32,7 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     Solution s;
-    qWarning() << s.judgeCircle(string("DURDLDRRLL"));
-    return a.exec();
+    cout << s.judgeCircle(string("DURDLDRRLL"));
+    return 0;
 }

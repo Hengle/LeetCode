@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <vector>
 #include <iostream>
 #include <string>
@@ -17,11 +16,10 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     string s("a");
     string t("aa");
     Solution so;
     char p = so.findTheDifference(s, t);
     cout << p;
-    return a.exec();
+    return 0;
 }

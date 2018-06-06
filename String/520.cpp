@@ -1,5 +1,3 @@
-#include <QCoreApplication>
-
 #include <vector>
 #include <iostream>
 using namespace std;
@@ -54,13 +52,11 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
     Solution s;
     cout << (s.detectCapitalUse("USA") ? ("true") : ("false"))<< endl;
     cout << (s.detectCapitalUse("FlaG") ? ("true") : ("false"))<<endl;
     cout << (s.detectCapitalUse("leetcode") ? ("true") : ("false"))<< endl;
     cout << (s.detectCapitalUse("ggg") ? ("true") : ("false"))<< endl;
     cout << (s.detectCapitalUse("Z") ? ("true") : ("false"))<< endl;
-    return a.exec();
+    return 0;
 }

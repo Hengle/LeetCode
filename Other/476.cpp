@@ -1,4 +1,4 @@
-#include <QCoreApplication>
+#include <cstdio>
 class Solution {
 public:
     int findComplement(int num) {
@@ -13,10 +13,9 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
 
     Solution s;
     printf("%d\n", s.findComplement(5));
     printf("%d\n", s.findComplement(2));
-    return a.exec();
+    return 0;
 }

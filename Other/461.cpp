@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <iostream>
 using namespace std;
 class Solution {
@@ -15,9 +14,8 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
 
     Solution s;
     std::cout<<s.hammingDistance(1, 4);
-    return a.exec();
+    return 0;
 }

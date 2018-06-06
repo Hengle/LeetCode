@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <vector>
 #include <iostream>
 using namespace std;
@@ -26,7 +25,6 @@ public:
 };
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
     vector<int> fn, nums;
 //    {
 //        //case 1
@@ -56,5 +54,5 @@ int main(int argc, char *argv[])
     for (auto i : ret) {
         cout << i << endl;
     }
-    return a.exec();
+    return 0;
 }

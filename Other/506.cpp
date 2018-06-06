@@ -1,8 +1,7 @@
 
-#include <QCoreApplication>
-
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -28,8 +27,6 @@ public:
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
     vector<int> nums;
     nums.push_back(5);
     nums.push_back(4);
@@ -41,5 +38,5 @@ int main(int argc, char *argv[])
     for (auto i : ret) {
         cout << i;
     }
-    return a.exec();
+    return 0;
 }
