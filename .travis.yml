@@ -1,5 +1,5 @@
 language: cpp
-sudo: required
+install: cmake make
 compiler: gcc
 cache: bundler
 group: deprecated-2017Q4
