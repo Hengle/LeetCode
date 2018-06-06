@@ -4,7 +4,9 @@ compiler: gcc
 cache: bundler
 group: deprecated-2017Q4
 script:
-    - cmake
+    - mkdir build
+    - cd build
+    - cmake ..
     - make
 notifications:
     email: false
