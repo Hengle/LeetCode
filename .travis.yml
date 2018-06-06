@@ -3,10 +3,8 @@ compiler: gcc
 cache: bundler
 sudo: required
 group: deprecated-2017Q4
+install: make cmake
 script:
-    - mkdir build
-    - cd build
-    - cmake ..
-    - make
+    - mkdir build && cd build && cmake .. && make -j4
 notifications:
     email: false
