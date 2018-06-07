@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/tao/Dev/C++/LeetCode/LeetCode/Array/605",
+            "program": "/home/tao/Dev/C++/LeetCode/LeetCode/Array/665",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
