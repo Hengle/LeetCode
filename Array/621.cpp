@@ -16,3 +16,6 @@ public:
         return max((int)tasks.size(), (s[25] - 1)* (n + 1) + (25 - i));
     }
 };
+int main() {
+    return 0;
+}
