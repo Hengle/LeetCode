@@ -10,8 +10,14 @@ mkdir build
 
 cd build
 
+# if you have ninja
 cmake .. -G Ninja
 
 ninja 
+
+#else use make
+cmake ..
+
+make -j4
 
 ````
