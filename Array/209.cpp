@@ -42,7 +42,7 @@ public:
       sums[i] = sums[i - 1] + nums[i];
     }
     
-    
+    return 0;
   }
 };
 

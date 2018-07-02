@@ -11,7 +11,7 @@ int myAtoi(string str)
 	int sigpos = -1;
 	int hassig = 0;
 	int err = 0;
-	while(start < str.length() && str[start] < '0' ||str[start] >'9' ) {
+	while(start < str.length() && (str[start] < '0' || str[start] >'9' )) {
 		if (str[start] =='-') {
 			if (!hassig) {
 				sig = -1;
@@ -28,7 +28,7 @@ int myAtoi(string str)
 			err = 1;
 		++start;
 	}
-	if (err == 1 || hassig==1 && sigpos != start -1)
+	if ((err == 1 || hassig==1) && sigpos != start -1)
 		return 0;
 	long long ret = 0;
 	for (int i = start; i < str.length() ; i++) {
