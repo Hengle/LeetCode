@@ -6,12 +6,12 @@ set (SRC_VERSION_PATCH 1)
 set (SRC_VERSION ${SRC_VERSION_MAJOR}.${SRC_VERSION_MINOR}.${SRC_VERSION_PATCH})
 set (PROJECT_VERSION "${SRC_VERSION}")
 
-IF (CMAKE_SYSTEM_NAME MATCHES "Windows")
+# IF (CMAKE_SYSTEM_NAME MATCHES "Windows")
 
-ELSE()
-    SET (CMAKE_C_COMPILER             "/usr/bin/clang")
-    SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
-ENDIF()
+# ELSE()
+#     SET (CMAKE_C_COMPILER             "/usr/bin/clang")
+#     SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
+# ENDIF()
 
 add_compile_options(-std=c++11)
 
