@@ -20,7 +20,6 @@ public:
                 left++;   
             }
             ans += i - left + 1;
-
         }
         return ans;
     }
