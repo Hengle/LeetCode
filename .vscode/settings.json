@@ -36,5 +36,6 @@
         "algorithm": "cpp",
         "cstddef": "cpp",
         "deque": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": false
 }
