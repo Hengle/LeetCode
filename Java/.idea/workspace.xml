@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da26accb-f11b-46fd-bb26-d08760f64082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/JumpGame_55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/JumpGame_55Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MajorityElement_169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MajorityElement_II_229.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/MajorityElement_169Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Array/MajorityElement_II_229Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/JumpGame_55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/JumpGame_55.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,22 +56,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="772" />
+          <entry key="java" value="1970" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="772" />
+          <entry key="JAVA" value="1970" />
         </counts>
       </usages-collector>
     </session>
@@ -96,14 +99,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/JumpGame_55.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="405">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_169.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_II_229.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#327#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_II_229Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="e#404#413#0" expanded="true" />
+                <element signature="e#700#709#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_169Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -137,6 +184,10 @@
         <option value="$PROJECT_DIR$/src/Array/Friends_825.java" />
         <option value="$PROJECT_DIR$/test/Array/JumpGame_55Test.java" />
         <option value="$PROJECT_DIR$/src/Array/JumpGame_55.java" />
+        <option value="$PROJECT_DIR$/src/Array/MajorityElement_169.java" />
+        <option value="$PROJECT_DIR$/test/Array/MajorityElement_169Test.java" />
+        <option value="$PROJECT_DIR$/test/Array/MajorityElement_II_229Test.java" />
+        <option value="$PROJECT_DIR$/src/Array/MajorityElement_II_229.java" />
       </list>
     </option>
   </component>
@@ -191,7 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533175763321" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533178684224" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="D:/Java/jdk-10.0.2/lib/junit-platform-commons-1.3.0-M1.jar!/" />
@@ -223,37 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JumpGame_55Test">
-    <configuration name="Friends_825Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.Friends_825Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Friends_825Test.numFriendRequests1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.Friends_825Test" />
-      <option name="METHOD_NAME" value="numFriendRequests1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MajorityElement_II_229Test">
     <configuration name="JumpGame_55Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -268,16 +289,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MajorityElement_169Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_169Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElement_II_229Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_II_229Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElement_II_229Test.majorityElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_II_229Test" />
+      <option name="METHOD_NAME" value="majorityElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElement_II_229Test.majorityElement2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_II_229Test" />
+      <option name="METHOD_NAME" value="majorityElement2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.Friends_825Test" />
-      <item itemvalue="JUnit.Friends_825Test.numFriendRequests1" />
       <item itemvalue="JUnit.JumpGame_55Test" />
+      <item itemvalue="JUnit.MajorityElement_169Test" />
+      <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement" />
+      <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement2" />
+      <item itemvalue="JUnit.MajorityElement_II_229Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MajorityElement_II_229Test" />
+        <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement2" />
+        <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement" />
+        <item itemvalue="JUnit.MajorityElement_169Test" />
         <item itemvalue="JUnit.JumpGame_55Test" />
-        <item itemvalue="JUnit.Friends_825Test" />
-        <item itemvalue="JUnit.Friends_825Test.numFriendRequests1" />
       </list>
     </recent_temporary>
   </component>
@@ -295,24 +380,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Friends_825Test - 2018.08.01 at 17h 16m 47s.xml">
-      <configuration name="Friends_825Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Friends_825Test_numFriendRequests1 - 2018.08.01 at 17h 17m 10s.xml">
-      <configuration name="Friends_825Test.numFriendRequests1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Friends_825Test_numFriendRequests1 - 2018.08.01 at 17h 17m 58s.xml">
-      <configuration name="Friends_825Test.numFriendRequests1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Friends_825Test_numFriendRequests1 - 2018.08.01 at 17h 20m 02s.xml">
-      <configuration name="Friends_825Test.numFriendRequests1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Friends_825Test_numFriendRequests1 - 2018.08.01 at 17h 20m 25s.xml">
-      <configuration name="Friends_825Test.numFriendRequests1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Friends_825Test_numFriendRequests1 - 2018.08.01 at 17h 21m 11s.xml">
-      <configuration name="Friends_825Test.numFriendRequests1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Friends_825Test - 2018.08.01 at 17h 21m 25s.xml">
       <configuration name="Friends_825Test" configurationId="JUnit" />
     </history-entry>
@@ -324,6 +391,24 @@
     </history-entry>
     <history-entry file="JumpGame_55Test - 2018.08.01 at 18h 27m 09s.xml">
       <configuration name="JumpGame_55Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpGame_55Test - 2018.08.02 at 10h 08m 44s.xml">
+      <configuration name="JumpGame_55Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JumpGame_55Test - 2018.08.02 at 10h 13m 41s.xml">
+      <configuration name="JumpGame_55Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_169Test - 2018.08.02 at 10h 38m 36s.xml">
+      <configuration name="MajorityElement_169Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_II_229Test_majorityElement - 2018.08.02 at 10h 54m 21s.xml">
+      <configuration name="MajorityElement_II_229Test.majorityElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_II_229Test_majorityElement2 - 2018.08.02 at 10h 55m 02s.xml">
+      <configuration name="MajorityElement_II_229Test.majorityElement2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_II_229Test - 2018.08.02 at 10h 55m 07s.xml">
+      <configuration name="MajorityElement_II_229Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -348,7 +433,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773756" weight="0.3292978" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773756" visible="true" weight="0.3292978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,6 +442,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5022625" side_tool="true" weight="0.3292978" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49773756" weight="0.3292978" />
+      <window_info anchor="right" x="0" y="0" width="300" height="792" id="Documentation" side_tool="true" weight="0.3295626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -397,10 +483,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/JumpGame_55.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_169.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_169Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_II_229Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#404#413#0" expanded="true" />
+            <element signature="e#700#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_II_229.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#336#0" expanded="true" />
           </folding>
         </state>
       </provider>
