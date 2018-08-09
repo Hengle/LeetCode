@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da26accb-f11b-46fd-bb26-d08760f64082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/NextPermutation_31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Array/NextPermutation_31Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Search/WordSearch_79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Search/WordSearch_79Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,6 +12,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Java$WordSearch_79Test_exist.ic" NAME="WordSearch_79Test.exist Coverage Results" MODIFIED="1533777239148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Search.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="687174683">
@@ -47,130 +52,57 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="class" value="2" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3197" />
+          <entry key="java" value="4783" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3197" />
+          <entry key="JAVA" value="4783" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/Friends_825.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Array/Friends_825Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/JumpGame_55.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_169.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_II_229.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation_31.java">
+        <entry file="file://$PROJECT_DIR$/test/Search/WordSearch_79Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="376">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Array/NextPermutation_31Test.java">
+        <entry file="file://$PROJECT_DIR$/src/Search/WordSearch_79.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_II_229Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_169Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Array/JumpGame_55Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="79">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#590#597#0" expanded="true" />
+                <element signature="e#558#565#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,6 +116,14 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -201,10 +141,12 @@
         <option value="$PROJECT_DIR$/src/Array/MajorityElement_II_229.java" />
         <option value="$PROJECT_DIR$/test/Array/NextPermutation_31Test.java" />
         <option value="$PROJECT_DIR$/src/Array/NextPermutation_31.java" />
+        <option value="$PROJECT_DIR$/src/Search/WordSearch_79.java" />
+        <option value="$PROJECT_DIR$/test/Search/WordSearch_79Test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="477" />
     <option name="y" value="2" />
     <option name="width" value="1444" />
@@ -216,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,7 +177,7 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -244,18 +188,16 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533522804894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533808744797" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="D:/Java/jdk-10.0.2/lib/junit-platform-commons-1.3.0-M1.jar!/" />
@@ -266,6 +208,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Search" />
       <recent name="Array" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -287,49 +230,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NextPermutation_31Test.nextPermutation">
-    <configuration name="MajorityElement_II_229Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WordSearch_79Test.exist3">
+    <configuration name="All in Java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_II_229Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement_II_229Test.majorityElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_II_229Test" />
-      <option name="METHOD_NAME" value="majorityElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MajorityElement_II_229Test.majorityElement2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.MajorityElement_II_229Test" />
-      <option name="METHOD_NAME" value="majorityElement2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,36 +255,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation_31Test.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordSearch_79Test.exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Array" />
-      <option name="MAIN_CLASS_NAME" value="Array.NextPermutation_31Test" />
-      <option name="METHOD_NAME" value="reverse" />
+      <option name="PACKAGE_NAME" value="Search" />
+      <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
+      <option name="METHOD_NAME" value="exist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSearch_79Test.exist2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Search" />
+      <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
+      <option name="METHOD_NAME" value="exist2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSearch_79Test.exist3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Search" />
+      <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
+      <option name="METHOD_NAME" value="exist3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement" />
-      <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement2" />
-      <item itemvalue="JUnit.MajorityElement_II_229Test" />
-      <item itemvalue="JUnit.NextPermutation_31Test.reverse" />
       <item itemvalue="JUnit.NextPermutation_31Test.nextPermutation" />
+      <item itemvalue="JUnit.All in Java" />
+      <item itemvalue="JUnit.WordSearch_79Test.exist" />
+      <item itemvalue="JUnit.WordSearch_79Test.exist2" />
+      <item itemvalue="JUnit.WordSearch_79Test.exist3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordSearch_79Test.exist3" />
+        <item itemvalue="JUnit.WordSearch_79Test.exist2" />
+        <item itemvalue="JUnit.WordSearch_79Test.exist" />
+        <item itemvalue="JUnit.All in Java" />
         <item itemvalue="JUnit.NextPermutation_31Test.nextPermutation" />
-        <item itemvalue="JUnit.NextPermutation_31Test.reverse" />
-        <item itemvalue="JUnit.MajorityElement_II_229Test" />
-        <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement2" />
-        <item itemvalue="JUnit.MajorityElement_II_229Test.majorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -397,35 +334,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 15m 02s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist - 2018.08.09 at 09h 19m 07s.xml">
+      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 15m 41s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist - 2018.08.09 at 09h 19m 59s.xml">
+      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 16m 05s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist - 2018.08.09 at 09h 22m 18s.xml">
+      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 17m 02s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist - 2018.08.09 at 09h 22m 32s.xml">
+      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_reverse - 2018.08.06 at 10h 20m 17s.xml">
-      <configuration name="NextPermutation_31Test.reverse" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist - 2018.08.09 at 09h 26m 27s.xml">
+      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_reverse - 2018.08.06 at 10h 20m 35s.xml">
-      <configuration name="NextPermutation_31Test.reverse" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist - 2018.08.09 at 09h 26m 32s.xml">
+      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 20m 48s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist2 - 2018.08.09 at 09h 36m 14s.xml">
+      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 22m 31s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist2 - 2018.08.09 at 09h 37m 05s.xml">
+      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 22m 50s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist2 - 2018.08.09 at 09h 37m 32s.xml">
+      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NextPermutation_31Test_nextPermutation - 2018.08.06 at 10h 25m 27s.xml">
-      <configuration name="NextPermutation_31Test.nextPermutation" configurationId="JUnit" />
+    <history-entry file="WordSearch_79Test_exist3 - 2018.08.09 at 09h 40m 50s.xml">
+      <configuration name="WordSearch_79Test.exist3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -438,9 +375,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="477" y="2" width="1444" height="1017" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25620437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19206008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,15 +387,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49773756" weight="0.32902467" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3877791" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49773756" visible="true" weight="0.3280543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37330317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292978" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3292978" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5022625" side_tool="true" weight="0.3292978" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49773756" weight="0.32902467" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918552" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49773756" weight="0.3280543" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3299356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,6 +410,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/Search/WordSearch_79Test.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Array/Friends_825.java">
@@ -507,6 +458,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_II_229.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Array/NextPermutation_31Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Array/MajorityElement_II_229Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -528,27 +496,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement_II_229.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation_31.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="137">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="656" selection-start-line="656" selection-end-line="656" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#24549#24550#0" expanded="true" />
+            <element signature="e#121412#121413#0" expanded="true" />
+            <element signature="e#121466#121467#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Array/NextPermutation_31Test.java">
+    <entry file="jar://D:/Java/jdk-10.0.2/lib/junit-jupiter-api-5.3.0-M1.jar!/org/junit/jupiter/api/Assertions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="-1">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation_31.java">
+    <entry file="jar://D:/Java/jdk-10.0.2/lib/junit-platform-commons-1.3.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/WordSearch_79.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#597#0" expanded="true" />
+            <element signature="e#558#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Search/WordSearch_79Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>
