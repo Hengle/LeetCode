@@ -1,10 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
 project(LeetCode)
-set (SRC_VERSION_MAJOR 1)
-set (SRC_VERSION_MINOR 0)
-set (SRC_VERSION_PATCH 1)
-set (SRC_VERSION ${SRC_VERSION_MAJOR}.${SRC_VERSION_MINOR}.${SRC_VERSION_PATCH})
-set (PROJECT_VERSION "${SRC_VERSION}")
 
 # IF (CMAKE_SYSTEM_NAME MATCHES "Windows")
 
@@ -12,8 +7,14 @@ set (PROJECT_VERSION "${SRC_VERSION}")
 #     SET (CMAKE_C_COMPILER             "/usr/bin/clang")
 #     SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
 # ENDIF()
+if(CMAKE_VERSION VERSION_LESS "3")
+  add_definitions(-std=c++11)
+else()
+  set(CMAKE_CXX_STANDARD 11)
+  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+endif()
 
-add_compile_options(-std=c++11)
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 add_subdirectory(Array)
 add_subdirectory(DP)
