@@ -26,7 +26,6 @@ void LMR(TreeNode* node)
     if (node) {
         LMR(node->left);
         cout << node->val << " ";
-
         LMR(node->right);
     }
 }

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class WordSearch_79Test {
 
     @Test
-    void exist() {
+    void exist1() {
         var s = new WordSearch_79();
         var a = new char[][] {
                 {'A', 'B', 'C', 'E'},
