@@ -9,5 +9,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit-jupiter-api-5.3.0-M1" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Java/jdk-10.0.1_linux-x64_bin/jdk-10.0.1/3rd/junit-jupiter-api-5.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Java/jdk-10.0.1_linux-x64_bin/jdk-10.0.1/3rd/apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Java/jdk-10.0.1_linux-x64_bin/jdk-10.0.1/3rd/opentest4j-1.0.0.jar!/" />
+          <root url="jar://$USER_HOME$/Java/jdk-10.0.1_linux-x64_bin/jdk-10.0.1/3rd/junit-platform-commons-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -10,6 +10,7 @@
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,23 +88,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordSearch_79Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Search/WordSearch_79Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="540">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordSearch_79.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Search/WordSearch_79.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumProductSubarray_152.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MaximumProductSubarray_152.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumProductSubarray_152Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Array/MaximumProductSubarray_152Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -144,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/Array/NextPermutation_31.java" />
         <option value="$PROJECT_DIR$/src/Search/WordSearch_79.java" />
         <option value="$PROJECT_DIR$/test/Search/WordSearch_79Test.java" />
+        <option value="$PROJECT_DIR$/test/Array/MaximumProductSubarray_152Test.java" />
+        <option value="$PROJECT_DIR$/src/Array/MaximumProductSubarray_152.java" />
       </list>
     </option>
   </component>
@@ -159,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,12 +199,18 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -193,15 +222,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path" value="$USER_HOME$/Java/jdk-10.0.1_linux-x64_bin/jdk-10.0.1/3rd" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533873012974" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="D:/Java/jdk-10.0.2/lib/junit-platform-commons-1.3.0-M1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -209,8 +240,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Search" />
       <recent name="Array" />
+      <recent name="Search" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -231,14 +262,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WordSearch_79Test">
-    <configuration name="All in Java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MaximumProductSubarray_152Test">
+    <configuration name="MaximumProductSubarray_152Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MaximumProductSubarray_152Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MaximumProductSubarray_152Test.maxProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MaximumProductSubarray_152Test" />
+      <option name="METHOD_NAME" value="maxProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MaximumProductSubarray_152Test.maxProduct4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Array" />
+      <option name="MAIN_CLASS_NAME" value="Array.MaximumProductSubarray_152Test" />
+      <option name="METHOD_NAME" value="maxProduct4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="WordSearch_79Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
@@ -248,43 +340,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Search" />
       <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordSearch_79Test.exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Search" />
-      <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
-      <option name="METHOD_NAME" value="exist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordSearch_79Test.exist2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Search" />
-      <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
-      <option name="METHOD_NAME" value="exist2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="WordSearch_79Test.exist3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
@@ -294,28 +363,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Search" />
       <option name="MAIN_CLASS_NAME" value="Search.WordSearch_79Test" />
       <option name="METHOD_NAME" value="exist3" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Java" />
-      <item itemvalue="JUnit.WordSearch_79Test.exist" />
-      <item itemvalue="JUnit.WordSearch_79Test.exist2" />
       <item itemvalue="JUnit.WordSearch_79Test.exist3" />
       <item itemvalue="JUnit.WordSearch_79Test" />
+      <item itemvalue="JUnit.MaximumProductSubarray_152Test.maxProduct" />
+      <item itemvalue="JUnit.MaximumProductSubarray_152Test" />
+      <item itemvalue="JUnit.MaximumProductSubarray_152Test.maxProduct4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumProductSubarray_152Test" />
+        <item itemvalue="JUnit.MaximumProductSubarray_152Test.maxProduct4" />
+        <item itemvalue="JUnit.MaximumProductSubarray_152Test.maxProduct" />
         <item itemvalue="JUnit.WordSearch_79Test" />
         <item itemvalue="JUnit.WordSearch_79Test.exist3" />
-        <item itemvalue="JUnit.WordSearch_79Test.exist2" />
-        <item itemvalue="JUnit.WordSearch_79Test.exist" />
-        <item itemvalue="JUnit.All in Java" />
       </list>
     </recent_temporary>
   </component>
@@ -333,35 +409,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordSearch_79Test_exist2 - 2018.08.09 at 09h 36m 14s.xml">
-      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist2 - 2018.08.09 at 09h 37m 05s.xml">
-      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist2 - 2018.08.09 at 09h 37m 32s.xml">
-      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist3 - 2018.08.09 at 09h 40m 50s.xml">
-      <configuration name="WordSearch_79Test.exist3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist2 - 2018.08.10 at 11h 47m 15s.xml">
-      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist - 2018.08.10 at 11h 47m 23s.xml">
-      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist - 2018.08.10 at 11h 47m 58s.xml">
-      <configuration name="WordSearch_79Test.exist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist2 - 2018.08.10 at 11h 48m 02s.xml">
-      <configuration name="WordSearch_79Test.exist2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordSearch_79Test_exist3 - 2018.08.10 at 11h 48m 09s.xml">
-      <configuration name="WordSearch_79Test.exist3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordSearch_79Test - 2018.08.10 at 11h 48m 19s.xml">
       <configuration name="WordSearch_79Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test_maxProduct - 2018.08.14 at 16h 30m 02s.xml">
+      <configuration name="MaximumProductSubarray_152Test.maxProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test_maxProduct - 2018.08.14 at 16h 32m 14s.xml">
+      <configuration name="MaximumProductSubarray_152Test.maxProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test_maxProduct - 2018.08.14 at 16h 32m 20s.xml">
+      <configuration name="MaximumProductSubarray_152Test.maxProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test - 2018.08.14 at 16h 35m 24s.xml">
+      <configuration name="MaximumProductSubarray_152Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test - 2018.08.14 at 16h 35m 51s.xml">
+      <configuration name="MaximumProductSubarray_152Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test_maxProduct4 - 2018.08.14 at 16h 37m 01s.xml">
+      <configuration name="MaximumProductSubarray_152Test.maxProduct4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test_maxProduct4 - 2018.08.14 at 16h 38m 20s.xml">
+      <configuration name="MaximumProductSubarray_152Test.maxProduct4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test - 2018.08.14 at 16h 51m 06s.xml">
+      <configuration name="MaximumProductSubarray_152Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumProductSubarray_152Test - 2018.08.14 at 16h 54m 21s.xml">
+      <configuration name="MaximumProductSubarray_152Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -374,43 +450,65 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1006" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19474249" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49773756" visible="true" weight="0.3280543" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37330317" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5022625" side_tool="true" weight="0.3292978" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918552" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49773756" weight="0.3280543" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49773756" weight="0.3280543" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026681" side_tool="true" weight="0.328" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" x="0" y="0" width="300" height="792" id="Documentation" order="8" side_tool="true" weight="0.32886267" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733192" visible="true" weight="0.328" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918552" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19690502" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37257144" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="300" height="792" id="Documentation" order="8" side_tool="true" weight="0.32886267" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/Search/WordSearch_79Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/WordSearch_79.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/Friends_825.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -481,36 +579,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="656" selection-start-line="656" selection-end-line="656" />
-          <folding>
-            <element signature="e#24549#24550#0" expanded="true" />
-            <element signature="e#121412#121413#0" expanded="true" />
-            <element signature="e#121466#121467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk-10.0.2/lib/junit-jupiter-api-5.3.0-M1.jar!/org/junit/jupiter/api/Assertions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk-10.0.2/lib/junit-platform-commons-1.3.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://D:/Java/jdk-10.0.2/lib/junit-jupiter-api-5.3.0-M1.jar!/org/junit/jupiter/api/Assertions.class" />
+    <entry file="jar://D:/Java/jdk-10.0.2/lib/junit-platform-commons-1.3.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
     <entry file="file://$PROJECT_DIR$/src/Search/WordSearch_79.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -519,8 +594,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Search/WordSearch_79Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="540">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Array/MaximumProductSubarray_152Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MaximumProductSubarray_152.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -576,7 +665,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>LeetCode</last-edited>
+          <last-edited>Java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
