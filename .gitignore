@@ -3,3 +3,5 @@
 build
 Java/out
 /Java/.idea/vcs.xml
+/Java/.idea/workspace.xml
+/Java/Java.iml
