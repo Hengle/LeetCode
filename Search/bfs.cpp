@@ -73,6 +73,6 @@ int main () {
         {1, 0, 0, 0},
     };
     Solution s;
-    cout << s.dfs (map) << endl;
+    cout << s.bfs (map) << endl;
     return 0;
 }
